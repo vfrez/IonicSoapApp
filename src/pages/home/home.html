@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      The Walking Dead
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="home">
+  <!-- <ion-searchbar [(ngModel)]="terms"></ion-searchbar> -->
+  <!--<button ion-button type="button" (click)="sort()">Sort</button>-->
+  <button class='row' ion-button type="button" (click)="goList()">Go to TWD List</button>
+  <button ion-button type="button" (click)="goSoap()">Go to SOAP</button>
+
+
+  <!--<ion-list>
+      <ion-item (click)="getDetail(episode.id)"   *ngFor="let episode of result | search : terms | sort: {property: column, order: order}">
+       <ion-avatar item-left *ngIf="episode.image != null">
+         <img src="{{episode.image.medium}}">
+       </ion-avatar>
+       <h2>{{episode.name}}</h2>
+     </ion-item> 
+   </ion-list>-->
+ 
+</ion-content>
