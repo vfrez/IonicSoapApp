@@ -1,5 +1,5 @@
-# ionicAppFirst
-Aplicativo Teste com Ionic
+# ionicSoapApp
+Aplicativo Teste com SOAP usando IONIC
 
 
 npm install 
